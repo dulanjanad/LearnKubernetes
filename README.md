@@ -72,4 +72,4 @@ Kubernetes Nodes are the machines where the containers managed by the cluster ru
 
 #### Kubernetes Big Picture
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image]()
