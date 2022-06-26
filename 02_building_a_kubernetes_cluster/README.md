@@ -34,7 +34,7 @@ To follow this guide, you need:
     cat <<EOF | sudo tee /etc/modules-load.d/containerd.conf
     overlay
     br_netfilter
-    OF
+    EOF
 
 3). Load modules:
 
@@ -91,21 +91,21 @@ To follow this guide, you need:
 
 15). Add Kubernetes to repository list:
 
-     cat <<EOF | sudo tee /etc/apt/sources.list.d/kubernetes.list
-     deb https://apt.kubernetes.io/ kubernetes-xenial main
-     EOF
+    cat <<EOF | sudo tee /etc/apt/sources.list.d/kubernetes.list
+    deb https://apt.kubernetes.io/ kubernetes-xenial main
+    EOF
 
 16). Update package listings:
 
-     sudo apt-get update
+    sudo apt-get update
 
 17). Install Kubernetes packages (Note: If you get a dpkg lock message, just wait a minute or two before trying the command again):
 
-     sudo apt-get install -y kubelet=1.23.0-00 kubeadm=1.23.0-00 kubectl=1.23.0-00
+    sudo apt-get install -y kubelet=1.23.0-00 kubeadm=1.23.0-00 kubectl=1.23.0-00
 
 18). Turn off automatic updates:
 
-     sudo apt-mark hold kubelet kubeadm kubectl
+    sudo apt-mark hold kubelet kubeadm kubectl
 
 19). Log into both Worker Nodes and perform above steps.
 
@@ -149,7 +149,7 @@ To follow this guide, you need:
 
 2). In both Worker Nodes, paste the kubeadm join command to join the cluster. Use sudo to run it as root:
 
-    sudo kubeadm join ...
+    eg: sudo kubeadm join 10.0.10.130:6443 --token <> --discovery-token-ca-cert-hash sha256:<> 
 
 3). In the Control Plane Node, view cluster status (Note: You may have to wait a few moments to allow all nodes to become ready):
 
