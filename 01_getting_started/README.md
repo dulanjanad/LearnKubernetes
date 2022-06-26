@@ -52,7 +52,7 @@ The control plane is a collection of multiple components responsible for managin
        
        cloud-controller-manager provides an interface between Kubernetes and various cloud platforms. It is only used when using using cloud-based resources alongside        Kubernetes.
  
- ##### Nodes
+ #### Nodes
  
 Kubernetes Nodes are the machines where the containers managed by the cluster run. A cluster can have any number of nodes. Various node components manage              containers on the machine and communicate with the control plane.
 
