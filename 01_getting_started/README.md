@@ -70,6 +70,7 @@ Kubernetes Nodes are the machines where the containers managed by the cluster ru
        
        kube-proxy is a network proxy. It runs on each node and handles some tasks related to providing networking between containers and services in the cluster.
 
+
 #### Kubernetes Big Picture
 
 ![This is an image](Diagrams/K8S-BigPicture.png)
