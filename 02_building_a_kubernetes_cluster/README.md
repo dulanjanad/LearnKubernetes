@@ -20,7 +20,7 @@ To follow this guide, you need:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-:bulb: **Tip:** **Please check below repository to provision a test environment using terraform** - https://github.com/dulanjanad/AWS-Playground
+:bulb: **Tip:** **Please check this repository to provision a test environment using terraform** - https://github.com/dulanjanad/AWS-Playground
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
