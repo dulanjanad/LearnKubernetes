@@ -18,7 +18,12 @@ To follow this guide, you need:
 * At least 2 CPUs on the machine that you use as a control-plane node.
 * Full network connectivity among all machines in the cluster. You can use either a public or a private network.
 
-Please check below repository to provision a test environment using terraform
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+:bulb: **Tip:** **Please check below repository to provision a test environment using terraform**
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
 
 #### Steps:
 
